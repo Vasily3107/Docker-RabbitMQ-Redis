@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connection_string = 'mongodb+srv://admin:admin@cluster0.5ivypqw.mongodb.net/?appName=Cluster0'
+const connection_string = ''
 
 mongoose.connect(connection_string)
     .then(() => console.log('Connected to MongoDB'))
